@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    background: #f5f5f5;
+}
+
+h2{
+    color: #0974b3;
+    padding-left: 10px;
+}
+
+a{
+    color: #ffffff;
+}
+
+p{
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+img{
+    width: 120px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+
+.inline{
+    display: inline-block;
+}
+
+div{
+    width: 250px;
+    height: 550px;
+    border-radius: 0px 0px 10px 10px;
+    background: #ffffff;
+    border-top: 4px solid gray;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+div.show{
+    transition: 0.3s;
+}
+
+div.show:hover{
+    transform: translate(0px, -10px);
+    border-top: 4px solid #0974b3;
+}
+
+
+
+.Isaac-hide{
+    position: absolute;
+    width: 120px;
+    height: 165px;
+    opacity: 0;
+    left: 0px;
+    /* transition: 0.1ms; */
+}
+
+.Isaac-hide:hover{
+    opacity: 1;
+    /* transform: translate(0px, 30px); */
+    background: rgb(0, 0, 0, 0.5);
+}
+
+.Albert-hide{
+    position: absolute;
+    width: 119px;
+    height: 166px;
+    opacity: 0;
+    left: 0px;
+    /* transition: 0.1s; */
+}
+
+.Albert-hide:hover{
+    opacity: 1;
+    background: rgb(0, 0, 0, 0.5);
+}
+
+.Nikola-hide{
+    position: absolute;
+    width: 120px;
+    height: 148px;
+    opacity: 0;
+    left: 0px;
+    background: blue;
+}
+
+.Nikola-hide:hover{
+    opacity: 1;
+    background: rgb(0, 0, 0, 0.5);
+}
+
+.button{
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    background: #0974b3;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px 0px ;
+    border: none;
+    transition: 0.4s;
+}
+
+.button:hover{
+    background: darkblue;
+}
